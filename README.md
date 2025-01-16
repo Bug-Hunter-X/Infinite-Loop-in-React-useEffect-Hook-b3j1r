@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in React's `useEffect` hook that can lead to infinite loops. The bug arises from a condition within the `useEffect` that causes the state to update endlessly. The solution shows how to correctly manage state updates within `useEffect` to avoid this issue.
